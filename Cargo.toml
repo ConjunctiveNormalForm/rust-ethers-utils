@@ -10,12 +10,12 @@ members = [
 ]
 
 [dependencies]
-dotenv = "0.15.0"
 ethers = { git = "https://github.com/gakonst/ethers-rs", features = ["ws", "rustls"] }
-tokio = { version = "1", features = ["full"] }
+tokio = { version = "1.19.2", features = ["full"] }
 async-trait = "0.1.56"
 ethers-utils = { path = "./ethers-utils" }
 teloxide = "0.9"
+dotenvy = "0.15.1"
 
 [[example]]
 name = "sample_log_fetcher"
